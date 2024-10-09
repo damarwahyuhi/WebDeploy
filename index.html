@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="univ-title">Universitas Teknologi Yogyakarta</h1>
+        <h2 class="mahasiswa-title">Mahasiswa</h2>
+        <div class="beranda">
+            <h3>Nama    : Diky Listianto</h3>
+            <h4>NIM     : 5220411462</h4>
+            <h5>Prodi   : Informatika</h5>
+        </div>
+    </header>    
+
+    <section>
+        <h1>Form Input Mahasiswa</h1>
+        <form action="submit.php" method="POST">
+            <label for="inputNama">Nama:</label>
+            <input type="text" id="inputNama" name="nama" required>
+
+            <label for="inputNIM">NIM:</label>
+            <input type="text" id="inputNIM" name="nim" required>
+            <br><br>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <section>
+        <h2 style="font-family: 'Arial', sans-serif;">Teknologi yang Digunakan</h2>
+        <div class="tech-container">
+            <div class="tech-item">
+                <h3>HTML</h3>
+                <p>Bahasa markup yang digunakan untuk membuat struktur halaman web.</p>
+            </div>
+            <div class="tech-item">
+                <h3>CSS</h3>
+                <p>Digunakan untuk mengatur tampilan dan layout halaman web.</p>
+            </div>
+            <div class="tech-item">
+                <h3>PHP</h3>
+                <p>Bahasa pemrograman sisi server untuk memproses data.</p>
+            </div>
+            <div class="tech-item">
+                <h3>MySQL</h3>
+                <p>Sistem manajemen database untuk menyimpan data mahasiswa.</p>
+            </div>
+            <div class="tech-item">
+                <h3>XAMPP</h3>
+                <p>Paket perangkat lunak untuk membuat server lokal.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
